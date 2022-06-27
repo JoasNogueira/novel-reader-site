@@ -1,3 +1,17 @@
 .Conteiner{
+    display: flex;
     margin: none;
+    justify-content: center;
+    background-color: #abb8c3;
+}
+
+.Conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 23vh;
+    width: 120vh;
+    height: 100%;
+    background-color: white;
+    border-radius: 6px;
 }
