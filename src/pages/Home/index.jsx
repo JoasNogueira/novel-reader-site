@@ -1,11 +1,10 @@
-import Logo from "../../components/Logo";
-import Menu from "../../components/Menu";
+import Feed from "./components/Feed";
+
 
 export default function Home(){
     return(
         <div className="Conteiner">
-            <Logo></Logo>
-            <Menu></Menu>
+            <Feed></Feed>
         </div>
     );
 }
