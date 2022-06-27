@@ -1,13 +1,17 @@
-import './style.css'
+import Card from './Card'
+import './styles.css'
 
 
 export default function Feed(){
 
 
     return(
-        <div>
-            <h2>Blabla</h2>
-            <h3>Bleble</h3>
+        <div className='Feed'>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
         </div>
     )
 }
