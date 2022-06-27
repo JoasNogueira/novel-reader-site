@@ -1,6 +1,13 @@
 .logo{
+    display: flex;
     height: 250px;
     width: 100%;
     background-color: #111111;
     border: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo h1{
+    color: azure;
 }
