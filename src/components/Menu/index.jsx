@@ -7,10 +7,14 @@ export default function Menu(){
     return(
         <div className="navMenu">
             <nav>
-            <ul>
-                    <li><a href="#">Página inicial</a></li>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Novels</a></li>
                     <li><a href="#">Sobre</a></li>
                     <li><a href="#">Contato</a></li>
+                    <li><a href="#">Donations</a></li>
+                    <li><a href="#">Discord</a></li>
+                    <li><a href="#">Login</a></li>
                 </ul>
             </nav>
         </div>
