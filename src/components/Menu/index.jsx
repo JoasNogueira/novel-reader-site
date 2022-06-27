@@ -5,8 +5,7 @@ export default function Menu(){
     
     
     return(
-        <div className="navMenu">
-            <nav>
+            <nav className="navMenu">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Novels</a></li>
@@ -17,6 +16,5 @@ export default function Menu(){
                     <li><a href="#">Login</a></li>
                 </ul>
             </nav>
-        </div>
     );
 }

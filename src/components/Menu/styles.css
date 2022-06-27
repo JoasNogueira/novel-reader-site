@@ -1,0 +1,31 @@
+.navMenu{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    background-color: #111;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navMenu ul{
+    margin-top: none;
+    text-align: center;
+}
+
+.navMenu li {
+    display: inline;
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.navMenu a{
+    color: #FFF;
+    text-decoration: none;
+    padding: 0.6rem;
+}
+
+.navMenu a:hover{
+    background-color: rgb(82, 75, 75);
+    padding: 0.7rem;
+    color: blue;
+}
