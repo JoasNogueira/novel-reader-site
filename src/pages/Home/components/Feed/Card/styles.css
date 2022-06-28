@@ -8,3 +8,7 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+.Card:hover{
+    background-color: rgb(230, 139, 139);
+}
