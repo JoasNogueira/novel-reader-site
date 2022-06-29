@@ -1,15 +1,21 @@
 import './App.css';
+import {
+  BrowserRouter,
+} from "react-router-dom";
+
+import AppRoutes from './routes/AppRoutes';
 import Logo from './components/Logo';
 import Menu from './components/Menu';
-import Home from './pages/Home';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <>
-    <Logo></Logo>
-    <Menu></Menu>
-    <Home></Home>
-    </>
+    <BrowserRouter>
+      <Logo/>
+      <Menu/>
+      <AppRoutes/>
+      <Footer/>
+    </BrowserRouter>
   );
 }
 
